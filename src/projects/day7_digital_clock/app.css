@@ -1,0 +1,35 @@
+
+body {
+  margin: 0;
+  background: #0d0d0d;
+  font-family: "Inter", monospace;
+  color: white;
+}
+
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.clock {
+  font-size: 190px;
+  font-weight: 700;
+  letter-spacing: 4px;
+
+  color: #e6004c;
+
+}
+
+.clock {
+  animation: fade 1s infinite steps(1);
+}
+
+@keyframes fade {
+  0% { opacity: 0.92; }
+  50% { opacity: 1; }
+  100% { opacity: 0.92; }
+}
